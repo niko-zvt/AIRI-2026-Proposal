@@ -1,0 +1,19 @@
+TY  - JOUR
+AU  - Kang, Yeonghun
+AU  - Park, Hyunsoo
+AU  - Smit, Berend
+AU  - Kim, Jihan
+PY  - 2023
+DA  - 2023/03/01
+TI  - A multi-modal pre-training transformer for universal transfer learning in metal–organic frameworks
+JO  - Nature Machine Intelligence
+SP  - 309
+EP  - 318
+VL  - 5
+IS  - 3
+AB  - Metal–organic frameworks (MOFs) are a class of crystalline porous materials that exhibit a vast chemical space owing to their tunable molecular building blocks with diverse topologies. An unlimited number of MOFs can, in principle, be synthesized. Machine learning approaches can help to explore this vast chemical space by identifying optimal candidates with desired properties from structure–property relationships. Here we introduce MOFTransformer, a multi-modal Transformer encoder pre-trained with 1 million hypothetical MOFs. This multi-modal model utilizes integrated atom-based graph and energy-grid embeddings to capture both local and global features of MOFs, respectively. By fine-tuning the pre-trained model with small datasets ranging from 5,000 to 20,000 MOFs, our model achieves state-of-the-art results for predicting across various properties including gas adsorption, diffusion, electronic properties, and even text-mined data. Beyond its universal transfer learning capabilities, MOFTransformer generates chemical insights by analyzing feature importance through attention scores within the self-attention layers. As such, this model can serve as a platform for other MOF researchers that seek to develop new machine learning models for their work.
+SN  - 2522-5839
+UR  - https://doi.org/10.1038/s42256-023-00628-2
+DO  - 10.1038/s42256-023-00628-2
+ID  - Kang2023
+ER  - 

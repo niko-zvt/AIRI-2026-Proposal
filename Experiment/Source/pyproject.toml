@@ -1,0 +1,48 @@
+[project]
+name = "mof-latent-demo"
+version = "0.2.0"
+description = "Эксперимент: латент PMTransformer как поисковое пространство для inverse design MOF."
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+# moftransformer==2.2.0 на PyPI пиннит torch<2.0.0 и PL==1.7.0, но сам пакет
+# работает на torch 2.x. Поэтому в run.sh ставим его с --no-deps, а
+# реальные транзитивные зависимости перечислены здесь.
+dependencies = [
+    "torch>=2.5.0,<2.7.0",
+    "torchvision",
+    "pytorch-lightning>=2.4.0,<2.6.0",
+    "torchmetrics>=1.0.0,<2.0.0",
+    "timm>=1.0.0,<2.0.0",
+    "transformers>=4.12.5,<4.47.0",
+    "sacred>=0.8.2",
+    "einops>=0.4.1",
+    "ase>=3.22.1",
+    "pymatgen>=2022.0.16",
+    "seaborn>=0.12.0",
+    "google-auth",
+    "jupyter-client",
+    "smmap<6",
+    "emmet-core",
+    "wget",
+    # sacred 0.8.x использует pkg_resources, который удалён в setuptools>=81.
+    "setuptools>=68,<81",
+    "umap-learn>=0.5.5,<0.6",
+    "plotly>=5.18,<6.0",
+    "kaleido==0.2.1",
+    "numpy>=1.24,<2.0",
+    "pandas>=2.0,<3.0",
+    "scipy>=1.10,<2.0",
+    "scikit-learn>=1.3,<2.0",
+    "matplotlib>=3.7,<4.0",
+    "tqdm>=4.65,<5.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = []
+
+[tool.uv]
+package = false

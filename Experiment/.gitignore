@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Environment files
+.env
+.env.local
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Demo working artefacts (raw symlink pool created by 00_select_pool.py)
+Results/_pool/
+Source/05*
+
+# Lock files (uv) - keep pyproject.toml as source of truth
+# uv.lock can stay committed if you want frozen deps; uncomment to ignore:
+# uv.lock

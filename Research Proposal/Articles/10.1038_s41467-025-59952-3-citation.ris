@@ -1,0 +1,16 @@
+TY  - JOUR
+AU  - Cleeton, Conor
+AU  - Sarkisov, Lev
+PY  - 2025
+DA  - 2025/05/23
+TI  - Inverse design of metal-organic frameworks using deep dreaming approaches
+JO  - Nature Communications
+SP  - 4806
+VL  - 16
+IS  - 1
+AB  - Exploring the expansive and largely untapped chemical space of metal-organic frameworks (MOFs) holds promise for revolutionising the field of materials science. MOFs, hailed for their modular architecture, offer unmatched flexibility in customising functionalities to meet specific application needs. However, navigating this chemical space to identify optimal MOF structures poses a significant challenge. Traditional high-throughput computational screening (HTCS), while useful, is often limited by a distribution bias towards materials not aligned with the desired functionalities. To overcome these limitations, this study adopts a “deep dreaming” methodology to optimise MOFs in silico, aiming to generate structures with systematically shifted properties that are closer to target functionalities from the outset. Our approach integrates property prediction and structure optimisation within a single interpretable framework, leveraging a specialised chemical language model augmented with attention mechanisms. Focusing on a curated set of MOF properties critical to applications like carbon capture and energy storage, we demonstrate how deep dreaming can be utilised as a tool for targeted material design.
+SN  - 2041-1723
+UR  - https://doi.org/10.1038/s41467-025-59952-3
+DO  - 10.1038/s41467-025-59952-3
+ID  - Cleeton2025
+ER  - 
